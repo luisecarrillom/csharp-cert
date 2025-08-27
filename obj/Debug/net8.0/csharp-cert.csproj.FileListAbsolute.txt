@@ -1,0 +1,14 @@
+C:\Users\USUARIO\Downloads\csharp-cert\bin\Debug\net8.0\csharp-cert.exe
+C:\Users\USUARIO\Downloads\csharp-cert\bin\Debug\net8.0\csharp-cert.deps.json
+C:\Users\USUARIO\Downloads\csharp-cert\bin\Debug\net8.0\csharp-cert.runtimeconfig.json
+C:\Users\USUARIO\Downloads\csharp-cert\bin\Debug\net8.0\csharp-cert.dll
+C:\Users\USUARIO\Downloads\csharp-cert\bin\Debug\net8.0\csharp-cert.pdb
+C:\Users\USUARIO\Downloads\csharp-cert\obj\Debug\net8.0\csharp-cert.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Downloads\csharp-cert\obj\Debug\net8.0\csharp-cert.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Downloads\csharp-cert\obj\Debug\net8.0\csharp-cert.AssemblyInfo.cs
+C:\Users\USUARIO\Downloads\csharp-cert\obj\Debug\net8.0\csharp-cert.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Downloads\csharp-cert\obj\Debug\net8.0\csharp-cert.dll
+C:\Users\USUARIO\Downloads\csharp-cert\obj\Debug\net8.0\refint\csharp-cert.dll
+C:\Users\USUARIO\Downloads\csharp-cert\obj\Debug\net8.0\csharp-cert.pdb
+C:\Users\USUARIO\Downloads\csharp-cert\obj\Debug\net8.0\csharp-cert.genruntimeconfig.cache
+C:\Users\USUARIO\Downloads\csharp-cert\obj\Debug\net8.0\ref\csharp-cert.dll
