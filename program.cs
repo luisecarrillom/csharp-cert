@@ -10,3 +10,37 @@ Console.Write("Congratulations!");
 Console.Write(" ");
 // Print another message on the same line as "Congratulations!"
 Console.Write("You wrote your first lines of code.");
+
+// Exercise: Print literal values
+
+// Print a single char literal
+Console.WriteLine('b');
+
+// This would fail: too many characters in a char literal
+// Console.WriteLine('Hello World!');
+
+// Print an int literal (whole number)
+Console.WriteLine(123);
+
+// Print a float literal (use suffix F)
+Console.WriteLine(0.25F);
+
+// Print a double literal (default for decimals)
+Console.WriteLine(2.625);
+
+// Print a decimal literal (use suffix m)
+Console.WriteLine(12.39816m);
+
+// Print bool literals
+Console.WriteLine(true);
+Console.WriteLine(false);
+
+// Compare strings vs other types (same output, different types)
+// Print "123" as a string
+Console.WriteLine("123");
+// Print 123 as an int
+Console.WriteLine(123);
+// Print "true" as a string
+Console.WriteLine("true");
+// Print true as a bool
+Console.WriteLine(true);
