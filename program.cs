@@ -44,3 +44,23 @@ Console.WriteLine(123);
 Console.WriteLine("true");
 // Print true as a bool
 Console.WriteLine(true);
+
+// Declare variables
+
+// A variable for a name (text)
+string firstName;
+
+// A variable for one character (like A, B, or C)
+char userOption;
+
+// A variable for a game score (whole number)
+int gameScore;
+
+// A variable for a precise number
+decimal particlesPerMillion;
+
+// A variable for true/false values
+bool processedCustomer;
+
+// Show a message
+Console.WriteLine("Variables were declared correctly.");
