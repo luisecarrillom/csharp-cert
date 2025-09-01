@@ -45,15 +45,15 @@ Console.WriteLine("true");
 // Print true as a bool
 Console.WriteLine(true);
 
-// Declare variables
+// Declare variables 
 
-// A variable for a name (text)
+// A variable for a name (text) 
 string firstName;
 
-// A variable for one character (like A, B, or C)
+// A variable for one character (like A, B, or C) 
 char userOption;
 
-// A variable for a game score (whole number)
+// A variable for a game score (whole number) 
 int gameScore;
 
 // A variable for a precise number
