@@ -64,3 +64,17 @@ bool processedCustomer;
 
 // Show a message
 Console.WriteLine("Variables were declared correctly.");
+
+// Implicitly typed local variables
+
+// The compiler infers the type based on the initial value
+var message = "Hello world!";
+var temperature = 36.6;    // double
+var isActive = true;       // bool
+var score = 150;           // int
+
+// Print values to confirm types
+Console.WriteLine(message);
+Console.WriteLine(temperature);
+Console.WriteLine(isActive);
+Console.WriteLine(score);
