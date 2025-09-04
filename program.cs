@@ -78,3 +78,4 @@ Console.WriteLine(message);
 Console.WriteLine(temperature);
 Console.WriteLine(isActive);
 Console.WriteLine(score);
+
