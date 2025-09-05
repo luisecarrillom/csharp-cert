@@ -79,3 +79,26 @@ Console.WriteLine(temperature);
 Console.WriteLine(isActive);
 Console.WriteLine(score);
 
+// Exercise: String combination using escape sequences
+
+// Print a message with a quoted customer name and a new line at the end
+Console.WriteLine("Generating invoices for customer \"Contoso Corp\" ...\n");
+
+// Print invoice numbers with tabs for alignment
+Console.WriteLine("Invoice: 1021\t\tComplete!");
+Console.WriteLine("Invoice: 1022\t\tComplete!");
+
+// Print a blank line, then show output directory label
+Console.WriteLine("\nOutput Directory:\t");
+
+// Print the path using escaped backslashes
+Console.Write(@"c:\invoices");
+
+// Exercise: Using Unicode escape characters
+
+// Print instructions in Japanese using Unicode escapes
+// Nihon no seikyū-sho o seisei suru ni wa:
+Console.Write("\n\n\u65e5\u672c\u306e\u8acb\u6c42\u66f8\u3092\u751f\u6210\u3059\u308b\u306b\u306f\uff1a\n\t");
+
+// Print the user command using a verbatim string literal (@)
+Console.WriteLine(@"c:\invoices\app.exe -j");
