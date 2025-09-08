@@ -102,3 +102,25 @@ Console.Write("\n\n\u65e5\u672c\u306e\u8acb\u6c42\u66f8\u3092\u751f\u6210\u3059\
 
 // Print the user command using a verbatim string literal (@)
 Console.WriteLine(@"c:\invoices\app.exe -j");
+
+// Exercise: String interpolation
+
+// Combine a string literal and a variable using interpolation
+// Use different variable names to avoid conflicts with previous code
+string firstName2 = "Bob";
+string interpMessage = $"Hello {firstName2}!";
+Console.WriteLine(interpMessage);
+
+// Use string interpolation with more variables
+int version = 11;
+string updateText = "Update to Windows";
+string updateMessage = $"{updateText} {version}";
+Console.WriteLine(updateMessage);
+
+// Avoid intermediate variables by writing directly in Console.WriteLine
+Console.WriteLine($"{updateText} {version}!");
+
+// Combine verbatim string literal (@) with interpolation ($)
+// Verbatim keeps backslashes; interpolation inserts variable values
+string projectName = "First-Project";
+Console.WriteLine($@"C:\Output\{projectName}\Data");
