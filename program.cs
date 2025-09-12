@@ -124,3 +124,30 @@ Console.WriteLine($"{updateText} {version}!");
 // Verbatim keeps backslashes; interpolation inserts variable values
 string projectName = "First-Project";
 Console.WriteLine($@"C:\Output\{projectName}\Data");
+
+// Exercise: Addition with implicit type conversion
+
+// Add two integers
+int firstNumber = 12;
+int secondNumber = 7;
+// The + operator here is interpreted as numeric addition
+Console.WriteLine(firstNumber + secondNumber);  // Output: 19
+
+// Reuse the 'firstName' variable you declared earlier (no redeclaration here)
+firstName = "Bob";       // <-- Asignamos la variable ya declarada arriba
+int widgetsSold = 7;
+
+// The + operator is interpreted as string concatenation
+// C# automatically converts widgetsSold (int) into a string
+Console.WriteLine(firstName + " sold " + widgetsSold + " widgets.");  
+// Output: Bob sold 7 widgets.
+
+// Mixing int variable with a literal int inside concatenation
+// Notice how the compiler treats everything as a string
+Console.WriteLine(firstName + " sold " + widgetsSold + 7 + " widgets.");  
+// Output: Bob sold 77 widgets. (7 concatenated with "7" instead of adding)
+
+// Use parentheses to clarify order of operations
+// Parentheses force numeric addition before concatenation
+Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");  
+// Output: Bob sold 14 widgets.
