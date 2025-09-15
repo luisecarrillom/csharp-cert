@@ -149,5 +149,16 @@ Console.WriteLine(firstName + " sold " + widgetsSold + 7 + " widgets.");
 
 // Use parentheses to clarify order of operations
 // Parentheses force numeric addition before concatenation
-Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");  
+Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");
 // Output: Bob sold 14 widgets.
+
+//Basic math operations
+int sum = 7 + 5;
+int difference = 7 - 5;
+int product = 7 * 5;
+int quotient = 7 / 5;
+
+Console.WriteLine("Sum: " + sum);
+Console.WriteLine("Difference: " + difference);
+Console.WriteLine("Product: " + product);
+Console.WriteLine("Quotient: " + quotient);
