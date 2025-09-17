@@ -162,3 +162,19 @@ Console.WriteLine("Sum: " + sum);
 Console.WriteLine("Difference: " + difference);
 Console.WriteLine("Product: " + product);
 Console.WriteLine("Quotient: " + quotient);
+
+// Declare a variable for temperature in Fahrenheit
+int fahrenheit = 94;
+
+// Convert Fahrenheit to Celsius
+// Step 1: Subtract 32
+// Step 2: Multiply by 5
+// Step 3: Divide by 9
+double celsius = (fahrenheit - 32) * 5.0 / 9.0;
+
+// Print the result with all decimals
+Console.WriteLine("The temperature is " + celsius + " Celsius.");
+
+// Print the result formatted to one decimal place
+// Use string interpolation and format specifier F1
+Console.WriteLine($"The temperature is {celsius:F1} Celsius.");
