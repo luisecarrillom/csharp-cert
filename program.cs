@@ -235,3 +235,66 @@ Console.WriteLine($"Sophia\t\t{sophiaAvg:F1}\t{GetLetterGrade(sophiaAvg)}");
 Console.WriteLine($"Nicolas\t\t{nicolasAvg:F1}\t{GetLetterGrade(nicolasAvg)}");
 Console.WriteLine($"Zahirah\t\t{zahirahAvg:F1}\t{GetLetterGrade(zahirahAvg)}");
 Console.WriteLine($"Jeong\t\t{jeongAvg:F1}\t{GetLetterGrade(jeongAvg)}");
+
+// ============================================================================
+// Store numeric grade values for each course (GPA prep)
+// ============================================================================
+
+// Base data for the student and courses
+// NOTE: If you already declared these in a previous section, remove or comment
+// the lines below to avoid redeclaration errors.
+string studentName = "Sophia Johnson";
+
+// Course names and credit hours (credits are integers in this example)
+string course1Name = "English 101";        int course1Credit = 3;
+string course2Name = "Algebra 101";        int course2Credit = 3;
+string course3Name = "Biology 101";        int course3Credit = 4;
+string course4Name = "Computer Science I"; int course4Credit = 4;
+string course5Name = "Psychology 101";     int course5Credit = 3;
+
+// ---------------------------------------------------------------------------
+// Create variables to store numeric equivalents for letter grades
+// A = 4 grade points, B = 3 grade points
+// (C, D, F omitted for now because they aren't used in this exercise)
+// ---------------------------------------------------------------------------
+int gradeA = 4;
+int gradeB = 3;
+
+// ---------------------------------------------------------------------------
+// Map the student's letter grades for each course to their numeric equivalents
+// ---------------------------------------------------------------------------
+int course1Grade = gradeA; // English 101  -> A
+int course2Grade = gradeB; // Algebra 101  -> B
+int course3Grade = gradeB; // Biology 101  -> B
+int course4Grade = gradeB; // CS I         -> B
+int course5Grade = gradeA; // Psychology   -> A
+
+// ---------------------------------------------------------------------------
+// Print course name with numeric grade (first pass - without credits)
+// Expected output:
+//   English 101 4
+//   Algebra 101 3
+//   Biology 101 3
+//   Computer Science I 3
+//   Psychology 101 4
+// ---------------------------------------------------------------------------
+Console.WriteLine($"{course1Name} {course1Grade}");
+Console.WriteLine($"{course2Name} {course2Grade}");
+Console.WriteLine($"{course3Name} {course3Grade}");
+Console.WriteLine($"{course4Name} {course4Grade}");
+Console.WriteLine($"{course5Name} {course5Grade}");
+
+// ---------------------------------------------------------------------------
+// Print course name, numeric grade, and credit hours (final target format)
+// Expected output:
+//   English 101 4 3
+//   Algebra 101 3 3
+//   Biology 101 3 4
+//   Computer Science I 3 4
+//   Psychology 101 4 3
+// ---------------------------------------------------------------------------
+Console.WriteLine($"{course1Name} {course1Grade} {course1Credit}");
+Console.WriteLine($"{course2Name} {course2Grade} {course2Credit}");
+Console.WriteLine($"{course3Name} {course3Grade} {course3Credit}");
+Console.WriteLine($"{course4Name} {course4Grade} {course4Credit}");
+Console.WriteLine($"{course5Name} {course5Grade} {course5Credit}");
