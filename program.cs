@@ -298,3 +298,24 @@ Console.WriteLine($"{course2Name} {course2Grade} {course2Credit}");
 Console.WriteLine($"{course3Name} {course3Grade} {course3Credit}");
 Console.WriteLine($"{course4Name} {course4Grade} {course4Credit}");
 Console.WriteLine($"{course5Name} {course5Grade} {course5Credit}");
+
+// ---------------------------------------------------------------------------
+// ---  nested decision  ---
+var rnd2 = new Random();
+int a = rnd2.Next(1,7), b = rnd2.Next(1,7), c = rnd2.Next(1,7);
+int t = a + b + c;
+Console.WriteLine($"Dice roll: {a} + {b} + {c} = {t}");
+
+// one bonus only (triples else doubles)
+if (a==b || b==c || a==c)
+{
+    if (a==b && b==c) { Console.WriteLine("Triples! +6"); t += 6; }
+    else { Console.WriteLine("Doubles! +2"); t += 2; }
+    Console.WriteLine($"Total w/ bonus: {t}");
+}
+
+// single prize outcome
+if (t >= 16) Console.WriteLine("You win a new car!");
+else if (t >= 10) Console.WriteLine("You win a new laptop!");
+else if (t == 7) Console.WriteLine("You win a trip for two!");
+else Console.WriteLine("You win a kitten!");
