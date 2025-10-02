@@ -333,3 +333,17 @@ fraudIds[0] = "F000";
 
 // How many items are in the array
 Console.WriteLine($"Count: {fraudIds.Length}");
+
+// ---------------------------------------------------------------------------
+// --- Inventory with foreach  ---
+int[] inventory = { 200, 450, 700, 175, 250 }; // items per warehouse bin
+int total = 0, bin = 0;                        // running total and bin counter
+
+foreach (int items in inventory)
+{
+    total += items;                             // accumulate current bin
+    Console.WriteLine($"Bin {++bin}: {items} (running total: {total})"); // print and advance bin #
+}
+
+Console.WriteLine($"We have {total} items in inventory."); // final total
+
