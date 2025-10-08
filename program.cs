@@ -341,9 +341,9 @@ int total = 0, bin = 0;                        // running total and bin counter
 
 foreach (int items in inventory)
 {
-    total += items;                             // accumulate current bin
+    total += items;                             // accumulate current bin 
     Console.WriteLine($"Bin {++bin}: {items} (running total: {total})"); // print and advance bin # 
 }
 
-Console.WriteLine($"We have {total} items in inventory."); // final total  
+Console.WriteLine($"We have {total} items in inventory."); // final total   comments
 
