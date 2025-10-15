@@ -345,5 +345,5 @@ foreach (int items in inventory)
     Console.WriteLine($"Bin {++bin}: {items} (running total: {total})"); // print and advance bin # 
 }
 
-Console.WriteLine($"We have {total} items in inventory."); // final total   comments
+Console.WriteLine($"We have {total} items in inventory."); // final total comments
 
