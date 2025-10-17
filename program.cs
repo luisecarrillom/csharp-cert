@@ -347,11 +347,11 @@ foreach (int items in inventory)
 
 Console.WriteLine($"We have {total} items in inventory."); // final total comments
 
-//student names
+//student names string
 string[] studentNamess = new string[] { "Sophia", "Andrew", "Emma", "Logan" };
 
 foreach (string name in studentNamess)
 {
     Console.WriteLine($"{name}");
 
-}
+} 
