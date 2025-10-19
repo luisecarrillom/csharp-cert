@@ -355,3 +355,23 @@ foreach (string name in studentNamess)
     Console.WriteLine($"{name}");
 
 } 
+
+// ============================================================================
+// Updated Student Grading
+// ============================================================================
+
+string[] stuNames = { "Sophia", "Andrew", "Emma", "Logan" };
+decimal[] examAvgs = { 92.2m, 89.6m, 85.6m, 91.2m };
+int[] extraShown = { 92, 89, 89, 96 };
+decimal[] extraSums = { 184m, 89m, 267m, 96m };
+
+Console.WriteLine("\nStudent\t\tExam Score\tOverall Grade\tExtra Credit\n");
+
+for (int i = 0; i < stuNames.Length; i++)
+{
+    decimal extraPts = (0.1m * extraSums[i]) / 5;
+    decimal overall = examAvgs[i] + extraPts;
+    string letter = overall >= 93 ? "A" : "A-";
+
+    Console.WriteLine($"{stuNames[i],-15}{examAvgs[i],5:F1}\t\t{overall,5:F2}\t{letter,-2}\t{extraShown[i]} ({extraPts:F2} pts)");
+}
