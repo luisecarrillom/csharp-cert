@@ -375,3 +375,13 @@ for (int i = 0; i < stuNames.Length; i++)
 
     Console.WriteLine($"{stuNames[i],-15}{examAvgs[i],5:F1}\t\t{overall,5:F2}\t{letter,-2}\t{extraShown[i]} ({extraPts:F2} pts)");
 }
+
+// ===========================================================================
+// Evaluate Boolean Expressions to Make Decisions
+// ===========================================================================
+Console.WriteLine("a" == "a");  // true
+Console.WriteLine("a" == "A"); // false
+Console.WriteLine(1 == 2);  // false
+
+string myValue = "a"; 
+Console.WriteLine(myValue == "a"); // true
