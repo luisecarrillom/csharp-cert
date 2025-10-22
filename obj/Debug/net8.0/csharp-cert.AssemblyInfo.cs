@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("csharp-cert")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc07886f2df2fdf273adf792ea281bc0dcc0f950")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+613639d7ec39600f5f13125cfa61ca8da6253597")]
 [assembly: System.Reflection.AssemblyProductAttribute("csharp-cert")]
 [assembly: System.Reflection.AssemblyTitleAttribute("csharp-cert")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
