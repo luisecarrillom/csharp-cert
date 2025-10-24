@@ -420,13 +420,13 @@ else
     Console.WriteLine("You do not have sufficient privileges.");
 }
 
-// ===========================================================================
+// ==========================================================================
 // Using variable scope and logic using Code Blocks in C#
-// ===========================================================================
+// ==========================================================================
 
 bool flag = true;
 if (flag)
 {
-    int value = 10;
+    int value = 10; 
     Console.WriteLine($"Inside the code block: {value}");
 }
