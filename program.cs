@@ -420,9 +420,9 @@ else
     Console.WriteLine("You do not have sufficient privileges.");
 }
 
-// ==========================================================================
+// =========================================================================
 // Using variable scope and logic using Code Blocks in C#
-// ==========================================================================
+// =========================================================================
 
 bool flag = true;
 if (flag)
@@ -430,3 +430,29 @@ if (flag)
     int value = 10; 
     Console.WriteLine($"Inside the code block: {value}");
 }
+
+int employeeLevel = 200;
+string employeeName = "John Smith";
+
+string title = "";
+
+switch (employeeLevel)
+{
+    case 100:
+        title = "Junior Associate";
+        break;
+    case 200:
+        title = "Senior Associate";
+        break;
+    case 300:
+        title = "Manager";
+        break;
+    case 400:
+        title = "Senior Manager";
+        break;
+    default:
+        title = "Associate";
+        break;
+}
+
+Console.WriteLine($"{employeeName}, {title}");
