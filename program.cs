@@ -434,7 +434,7 @@ if (flag)
 int employeeLevel = 200;
 string employeeName = "John Smith";
 
-string title = "";
+string title = ""; 
 
 switch (employeeLevel)
 {
@@ -454,5 +454,5 @@ switch (employeeLevel)
         title = "Associate";
         break;
 }
-
+ 
 Console.WriteLine($"{employeeName}, {title}");
