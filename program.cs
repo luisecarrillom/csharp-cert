@@ -456,3 +456,10 @@ switch (employeeLevel)
 }
  
 Console.WriteLine($"{employeeName}, {title}");
+
+//for 0 to 3
+
+for (int ii = 0; ii < 4; ii++)
+{
+    Console.WriteLine(ii);
+}
