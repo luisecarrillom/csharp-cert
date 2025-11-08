@@ -463,3 +463,12 @@ for (int ii = 0; ii < 4; ii++)
 {
     Console.WriteLine(ii);
 } 
+
+Random random = new Random();
+int current = 0;
+
+do
+{
+    current = random.Next(1, 11);
+    Console.WriteLine(current);
+} while (current != 7);
