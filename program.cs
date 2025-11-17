@@ -481,3 +481,17 @@ Console.WriteLine($"short  : {short.MinValue} to {short.MaxValue}");
 Console.WriteLine($"int    : {int.MinValue} to {int.MaxValue}");
 Console.WriteLine($"long   : {long.MinValue} to {long.MaxValue}");
 
+// Convert a string to int value
+
+string value1 = "5";
+string value2 = "7";
+int result = Convert.ToInt32(value1) * Convert.ToInt32(value2);
+Console.WriteLine(result);
+
+// Convert decimal to int
+
+int value3 = (int)1.5m; // casting truncates
+Console.WriteLine(value3);
+
+int value4 = Convert.ToInt32(1.5m); // converting rounds up
+Console.WriteLine(value4);
