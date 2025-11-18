@@ -495,3 +495,14 @@ Console.WriteLine(value3);
 
 int value4 = Convert.ToInt32(1.5m); // converting rounds up
 Console.WriteLine(value4);
+
+// Perform Operations on Arrays Using Helper Methods in C# Part 1
+
+string[] pallets = [ "B14", "A11", "B12", "A13" ];
+
+Console.WriteLine("Sorted...");
+Array.Sort(pallets);
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
