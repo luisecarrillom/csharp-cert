@@ -506,3 +506,10 @@ foreach (var pallet in pallets)
 {
     Console.WriteLine($"-- {pallet}");
 }
+
+string valuea = "abc123";
+char[] valueArray = valuea.ToCharArray();
+Array.Reverse(valueArray);
+// string result = new string(valueArray);
+string resultarray = String.Join(",", valueArray);
+Console.WriteLine(resultarray);
