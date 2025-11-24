@@ -513,3 +513,11 @@ Array.Reverse(valueArray);
 // string result = new string(valueArray);
 string resultarray = String.Join(",", valueArray);
 Console.WriteLine(resultarray);
+
+// Format Alphanumeric Data for Presentation in C#
+
+string first = "Hello";
+string second = "World";
+Console.WriteLine("{1} {0}!", first, second);
+Console.WriteLine("{0} {0} {0}!", first, second);
+
