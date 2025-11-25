@@ -521,3 +521,13 @@ string second = "World";
 Console.WriteLine("{1} {0}!", first, second);
 Console.WriteLine("{0} {0} {0}!", first, second);
 
+
+// Modify the Content of Strings Using Built-In String Data Type Methods in C#
+
+string message1 = "Find what is (inside the parentheses)";
+
+int openingPosition = message1.IndexOf('('); //13
+int closingPosition = message1.IndexOf(')'); //36
+
+Console.WriteLine(openingPosition);
+Console.WriteLine(closingPosition);
