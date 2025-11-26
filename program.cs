@@ -531,3 +531,12 @@ int closingPosition = message1.IndexOf(')'); //36
 
 Console.WriteLine(openingPosition);
 Console.WriteLine(closingPosition);
+
+// IndexOf() & LastIndexOf
+
+string message2 = "hello there!";
+
+int first_h = message2.IndexOf('h');
+int last_h = message2.LastIndexOf('h');
+
+Console.WriteLine($"For the message: '{message2}', the first 'h' is at position {first_h} and the last 'h' is at position {last_h}.");
