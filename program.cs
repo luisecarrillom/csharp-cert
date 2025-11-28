@@ -546,3 +546,8 @@ string message3 = "This--is--ex-amp-le--da-ta";
 message3 = message3.Replace("--", " ");
 message3 = message3.Replace("-", "");
 Console.WriteLine(message3);
+
+// PadLeft()  and PadRight() 
+string input = "Pad This";
+Console.WriteLine(input.PadLeft(12, '-'));
+Console.WriteLine(input.PadRight(12, '-'));
