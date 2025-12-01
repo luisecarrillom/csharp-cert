@@ -551,3 +551,12 @@ Console.WriteLine(message3);
 string input = "Pad This";
 Console.WriteLine(input.PadLeft(12, '-'));
 Console.WriteLine(input.PadRight(12, '-'));
+
+//  First C# Method
+
+SayHello();
+
+void SayHello() 
+{
+    Console.WriteLine("Hello World!");
+}
