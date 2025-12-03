@@ -560,3 +560,20 @@ void SayHello()
 {
     Console.WriteLine("Hello World!");
 }
+
+Console.WriteLine("Generating random numbers:");
+DisplayRandomNumbers();
+
+// Method for generate 5 random numbers
+
+void DisplayRandomNumbers() 
+{
+    Random random = new Random();
+
+    for (int i = 0; i < 5; i++) 
+    {
+        Console.Write($"{random.Next(1, 100)} ");
+    }
+
+    Console.WriteLine();
+}
