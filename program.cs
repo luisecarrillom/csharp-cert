@@ -577,3 +577,15 @@ void DisplayRandomNumbers()
 
     Console.WriteLine();
 }
+
+//C# Methods with Parameters
+
+CountTo(5);
+
+	void CountTo(int max) 
+	{
+		for (int i = 0; i < max; i++)
+		{
+			Console.Write($"{i}, ");
+		}
+	}
