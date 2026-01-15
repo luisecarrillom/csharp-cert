@@ -628,3 +628,11 @@ int UsdToVnd(double usd)
     int rate = 23500;
     return(int) (rate * usd);
 }
+
+// Principles of Code Debugging
+
+string [] students = new string [] {"Sophia" , "Nicolas", "Andrea" , "Luis"};
+
+int studentCount = students.Length;
+
+Console.WriteLine("The final name is: " + students[studentCount -1]); // we need to add -1 for get access to the final name of the array
