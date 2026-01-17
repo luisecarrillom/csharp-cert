@@ -645,7 +645,7 @@ try
 }
 catch
 {
-    Console.WriteLine("An exception has occurred");
+    Console.WriteLine("An exception has occurred"); 
 }
 
 Console.WriteLine("Exit program");
